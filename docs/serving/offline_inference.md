@@ -36,7 +36,7 @@ This API adds several batteries-included capabilities that simplify large-scale,
 ??? code
 
     ```python
-    import ray  # Requires ray>=2.44.1
+    import ray  # Requires ray>=2.51.1
     from ray.data.llm import vLLMEngineProcessorConfig, build_llm_processor
 
     config = vLLMEngineProcessorConfig(model_source="unsloth/Llama-3.2-1B-Instruct")

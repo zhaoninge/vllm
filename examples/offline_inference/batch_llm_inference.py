@@ -25,8 +25,8 @@ import ray
 from packaging.version import Version
 from ray.data.llm import build_llm_processor, vLLMEngineProcessorConfig
 
-assert Version(ray.__version__) >= Version("2.44.1"), (
-    "Ray version must be at least 2.44.1"
+assert Version(ray.__version__) >= Version("2.51.1"), (
+    "Ray version must be at least 2.51.1"
 )
 
 # Uncomment to reduce clutter in stdout
